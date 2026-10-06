@@ -1,0 +1,2 @@
+# TezkorTest
+Bolalar uchun test
