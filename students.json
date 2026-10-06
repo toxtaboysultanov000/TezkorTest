@@ -1,0 +1,19 @@
+{
+    "students": [
+        {
+            "firstName": "Ali",
+            "lastName": "Valiyev",
+            "password": "12345"
+        },
+        {
+            "firstName": "Vali",
+            "lastName": "Aliyev",
+            "password": "12345"
+        },
+        {
+            "firstName": "Toxtaboy",
+            "lastName" : "Sultanov",
+            "password": "12345"
+        }
+    ]
+}

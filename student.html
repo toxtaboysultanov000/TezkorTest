@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>O'quvchi - EduTest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="top">
+        <div style="display:flex;gap:10px;align-items:center"><button class="burger"
+                onclick="toggleMenu()">☰</button><span class="brand">EduTest</span></div>
+        <div class="right"><span class="hello" id="hello"></span><button class="btn small ghost"
+                onclick="logout()">Logout</button></div>
+    </header>
+    <div class="layout">
+        <nav class="side"><button data-v="home" onclick="show('home')">🏠 Bosh sahifa</button><button data-v="subjects"
+                onclick="show('subjects')">📚 Fanlar</button><button data-v="tests" onclick="show('tests')">📝
+                Testlar</button><button data-v="results" onclick="show('results')">📊 Natijalarim</button><button
+                data-v="profile" onclick="show('profile')">👤 Profil</button></nav>
+        <main class="main" id="main"></main>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/results.js"></script>
+    <script src="js/student.js"></script>
+</body>
+
+</html>

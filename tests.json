@@ -1,0 +1,126 @@
+{
+    "tests": [
+        {
+  "id": 4,
+  "subject": "HTML",
+  "title": "Test",
+  "time": 600,
+  "questions": [
+    {
+      "question": "<a> bu tegning vazifasi nima?",
+      "options": [
+        "<b> tegi bilan ishlatiladi",
+        "<a>tegi havola qilish uchun ishglatiladi",
+        "a va b",
+        "poxxuy"
+      ],
+      "answer": 1
+    }
+  ]
+},
+        {
+            "id": 1,
+            "subject": "HTML",
+            "title": "HTML Beginner",
+            "time": 600,
+            "questions": [
+                {
+                    "question": "HTML nima uchun ishlatiladi?",
+                    "options": [
+                        "Web sahifa yaratish",
+                        "Rasm tahrirlash",
+                        "Video montaj",
+                        "Operatsion tizim yaratish"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question": "HTML faylining kengaytmasi qanday?",
+                    "options": [
+                        ".html",
+                        ".css",
+                        ".js",
+                        ".py"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question": "Eng katta sarlavha qaysi teg?",
+                    "options": [
+                        "<h6>",
+                        "<h1>",
+                        "<head>",
+                        "<p>"
+                    ],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "subject": "CSS",
+            "title": "CSS Basic",
+            "time": 300,
+            "questions": [
+                {
+                    "question": "CSS nima uchun kerak?",
+                    "options": [
+                        "Dizayn berish",
+                        "Ma'lumotlar bazasi",
+                        "Server yozish",
+                        "Antivirus"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question": "Matn rangi qaysi xossa bilan o'zgaradi?",
+                    "options": [
+                        "font",
+                        "color",
+                        "bg",
+                        "text-style"
+                    ],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "subject": "JavaScript",
+            "title": "JavaScript Basic",
+            "time": 600,
+            "questions": [
+                {
+                    "question": "JavaScript nima?",
+                    "options": [
+                        "Dasturlash tili",
+                        "Ma'lumotlar bazasi",
+                        "Brauzer",
+                        "Operatsion tizim"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question": "O'zgaruvchi e'lon qilish uchun qaysi kalit so'z?",
+                    "options": [
+                        "let",
+                        "int",
+                        "var2",
+                        "dim"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question": "Konsolga chiqarish funksiyasi?",
+                    "options": [
+                        "print()",
+                        "console.log()",
+                        "echo()",
+                        "write()"
+                    ],
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+}
